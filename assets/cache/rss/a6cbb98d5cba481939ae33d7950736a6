@@ -1,0 +1,593 @@
+O:9:"MagpieRSS":23:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:10:{i:0;a:8:{s:5:"title";s:9:"1.4.0.RC2";s:4:"link";s:47:"/evolution-cms/evolution/releases/tag/1.4.0.RC2";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Fri, 17 Nov 2017 05:27:34 PST";s:4:"guid";s:49:"tag:github.com,2008:Repository/12320050/1.4.0.RC2";s:11:"description";s:40:"<p>Fixed lot bug founded on 1.4.0.RC</p>";s:7:"summary";s:40:"<p>Fixed lot bug founded on 1.4.0.RC</p>";s:14:"date_timestamp";i:1510925254;}i:1;a:8:{s:5:"title";s:8:"1.4.0.RC";s:4:"link";s:46:"/evolution-cms/evolution/releases/tag/1.4.0.RC";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Mon, 06 Nov 2017 06:04:30 PST";s:4:"guid";s:48:"tag:github.com,2008:Repository/12320050/1.4.0.RC";s:11:"description";s:606:"<ul>
+<li>fixed many bugs from 1.3.* version</li>
+<li>add globalTabs in manager (need turnON in Settings)</li>
+<li>add Color Switcher for manager (need turnON in Settings)</li>
+<li>add setting for use <a href="https://github.com/tags" class="user-mention">@tags</a> (without this site work faster)</li>
+<li>Rewrite Demo Site</li>
+<li>move to Extras (AjaxSearch, Breadcrumbs, Ditto, eForm, JotX, Membercheck, Personalize, Reflect, Wayfinder, WebLogin)</li>
+<li>Improved New Resource Menu in top menu</li>
+<li>Allow {{chunk?&amp;param=<code>xxx</code>}} with [<em>tv_name_[+param+]</em>] as content</li>
+</ul>";s:7:"summary";s:606:"<ul>
+<li>fixed many bugs from 1.3.* version</li>
+<li>add globalTabs in manager (need turnON in Settings)</li>
+<li>add Color Switcher for manager (need turnON in Settings)</li>
+<li>add setting for use <a href="https://github.com/tags" class="user-mention">@tags</a> (without this site work faster)</li>
+<li>Rewrite Demo Site</li>
+<li>move to Extras (AjaxSearch, Breadcrumbs, Ditto, eForm, JotX, Membercheck, Personalize, Reflect, Wayfinder, WebLogin)</li>
+<li>Improved New Resource Menu in top menu</li>
+<li>Allow {{chunk?&amp;param=<code>xxx</code>}} with [<em>tv_name_[+param+]</em>] as content</li>
+</ul>";s:14:"date_timestamp";i:1509977070;}i:2;a:8:{s:5:"title";s:5:"1.3.6";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.6";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Mon, 04 Sep 2017 03:41:48 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.6";s:11:"description";s:124:"<p>-[S] refactor ajax.php, close SQL injection (64j)<br>
+-[F] fix ditto error on 61 str. in ditto.class.inc.php (Dmi3yy)</p>";s:7:"summary";s:124:"<p>-[S] refactor ajax.php, close SQL injection (64j)<br>
+-[F] fix ditto error on 61 str. in ditto.class.inc.php (Dmi3yy)</p>";s:14:"date_timestamp";i:1504521708;}i:3;a:8:{s:5:"title";s:5:"1.3.5";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.5";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Fri, 01 Sep 2017 12:26:02 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.5";s:11:"description";s:2133:"<ul>
+<li>[F] ElementsInTree restyled for new theme, version 1.5.8 (Piotr Matysiak)</li>
+<li>[F] Fix - &lt;<a href="https://github.com/if" class="user-mention">@if</a>&gt;&lt;<a href="https://github.com/elseif" class="user-mention">@elseif</a>&gt;&lt;<a href="https://github.com/else" class="user-mention">@else</a>&gt;&lt;<a href="https://github.com/endif" class="user-mention">@endif</a>&gt; (yamamoto)</li>
+<li>[F] Fix Bugs in Ditto with date and placeholders from version 1.3.4 (yamamoto, Dmi3yy)</li>
+<li>[F] Fix tinymce params underfined bug on frontend (dmi3yy)</li>
+<li>[F] Fix <a href="https://github.com/evolution-cms/evolution/issues/65" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="243697036" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/65">#65</a> Plugin parameters are lost after update to the new version (dmi3yy)</li>
+<li>[C] no need update.php in extras module (dmi3yy)</li>
+<li>[F] variable documentDirty (64j)</li>
+<li>[R] Make sortable list more condensed (Piotr Matysiak)</li>
+<li>[F] <a href="https://github.com/evolution-cms/evolution/issues/187" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="252626751" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/187">#187</a> Ditto is missing placeholders when built-in filters are enabled (yamamoto)</li>
+<li>[F] saved roles users <a href="https://github.com/evolution-cms/evolution/issues/130" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="246521479" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/130">#130</a> (64j)</li>
+<li>[F] <a href="https://github.com/evolution-cms/evolution/issues/192" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="253143482" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/192">#192</a> evo.checkConnectionToServer function (64j)</li>
+</ul>";s:7:"summary";s:2133:"<ul>
+<li>[F] ElementsInTree restyled for new theme, version 1.5.8 (Piotr Matysiak)</li>
+<li>[F] Fix - &lt;<a href="https://github.com/if" class="user-mention">@if</a>&gt;&lt;<a href="https://github.com/elseif" class="user-mention">@elseif</a>&gt;&lt;<a href="https://github.com/else" class="user-mention">@else</a>&gt;&lt;<a href="https://github.com/endif" class="user-mention">@endif</a>&gt; (yamamoto)</li>
+<li>[F] Fix Bugs in Ditto with date and placeholders from version 1.3.4 (yamamoto, Dmi3yy)</li>
+<li>[F] Fix tinymce params underfined bug on frontend (dmi3yy)</li>
+<li>[F] Fix <a href="https://github.com/evolution-cms/evolution/issues/65" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="243697036" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/65">#65</a> Plugin parameters are lost after update to the new version (dmi3yy)</li>
+<li>[C] no need update.php in extras module (dmi3yy)</li>
+<li>[F] variable documentDirty (64j)</li>
+<li>[R] Make sortable list more condensed (Piotr Matysiak)</li>
+<li>[F] <a href="https://github.com/evolution-cms/evolution/issues/187" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="252626751" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/187">#187</a> Ditto is missing placeholders when built-in filters are enabled (yamamoto)</li>
+<li>[F] saved roles users <a href="https://github.com/evolution-cms/evolution/issues/130" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="246521479" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/130">#130</a> (64j)</li>
+<li>[F] <a href="https://github.com/evolution-cms/evolution/issues/192" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="253143482" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/192">#192</a> evo.checkConnectionToServer function (64j)</li>
+</ul>";s:14:"date_timestamp";i:1504293962;}i:4;a:8:{s:5:"title";s:5:"1.3.4";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.4";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Tue, 29 Aug 2017 22:21:43 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.4";s:11:"description";s:1553:"<ul>
+<li>update FormLister to 1.7.8 (dmi3yy)</li>
+<li>update DocLister to 1.3.11 (dmi3yy)</li>
+<li><a href="https://github.com/file" class="user-mention">@file</a> for chunks - <code>{{@FILE:assets/chunks/header.html}}</code></li>
+<li>remove mootols from manage category</li>
+<li>added disable/enable snippets and chuncks <a href="https://github.com/evolution-cms/evolution/issues/126" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="246472027" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/126">#126</a></li>
+<li>Depricated keywords and metatags (not used by default from 1.0.8 version) use TV for this.</li>
+<li>new settings for group TVs (<a href="http://take.ms/OmFYb">http://take.ms/OmFYb</a>)</li>
+<li>add header("X-XSS-Protection: 0"); for correct work filamanager.</li>
+<li>Add DLSitemap and DLMenu snippets</li>
+<li>Remove DLBuildMenu</li>
+<li>Refactor manager search and fix permision for this</li>
+<li>remove etomite "compatibility"</li>
+<li>New - $modx-&gt;config['enable_cache']</li>
+<li>New - <code>[*value:makeUrl*]</code> modifier</li>
+<li>As well as bug fixes, for a complete list of changes, see the changelog</li>
+<li>New - <code>&lt;@LITERAL&gt;[*any tags*] {{any chunk}} [[any call]]&lt;@ENDLITERAL&gt;</code> Display tags as it is (block)</li>
+<li>New - <code>\[\*any tags\*\] \{\{any chunk\}\} \[\[any call\]\]</code> Display tags as it is (inline)</li>
+<li>New - <code>{{ any chunk }}</code> Display chunk call as it is</li>
+</ul>";s:7:"summary";s:1553:"<ul>
+<li>update FormLister to 1.7.8 (dmi3yy)</li>
+<li>update DocLister to 1.3.11 (dmi3yy)</li>
+<li><a href="https://github.com/file" class="user-mention">@file</a> for chunks - <code>{{@FILE:assets/chunks/header.html}}</code></li>
+<li>remove mootols from manage category</li>
+<li>added disable/enable snippets and chuncks <a href="https://github.com/evolution-cms/evolution/issues/126" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="246472027" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/126">#126</a></li>
+<li>Depricated keywords and metatags (not used by default from 1.0.8 version) use TV for this.</li>
+<li>new settings for group TVs (<a href="http://take.ms/OmFYb">http://take.ms/OmFYb</a>)</li>
+<li>add header("X-XSS-Protection: 0"); for correct work filamanager.</li>
+<li>Add DLSitemap and DLMenu snippets</li>
+<li>Remove DLBuildMenu</li>
+<li>Refactor manager search and fix permision for this</li>
+<li>remove etomite "compatibility"</li>
+<li>New - $modx-&gt;config['enable_cache']</li>
+<li>New - <code>[*value:makeUrl*]</code> modifier</li>
+<li>As well as bug fixes, for a complete list of changes, see the changelog</li>
+<li>New - <code>&lt;@LITERAL&gt;[*any tags*] {{any chunk}} [[any call]]&lt;@ENDLITERAL&gt;</code> Display tags as it is (block)</li>
+<li>New - <code>\[\*any tags\*\] \{\{any chunk\}\} \[\[any call\]\]</code> Display tags as it is (inline)</li>
+<li>New - <code>{{ any chunk }}</code> Display chunk call as it is</li>
+</ul>";s:14:"date_timestamp";i:1504070503;}i:5;a:8:{s:5:"title";s:5:"1.3.3";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.3";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Thu, 20 Jul 2017 00:36:44 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.3";s:11:"description";s:1800:"<ul>
+<li>[GitHub:#f83719a0] - [F] fix for multiTV&lt;10.0.12 (need branch name Evolution) (dmi3yy)</li>
+<li>[GitHub:#3ac1ef3f] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/73" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244110381" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/73">#73</a> update login form (64j)</li>
+<li>[GitHub:#c469b0ed] - [I] Update README.md add version informer (Dmytro Lukianenko)</li>
+<li>[GitHub:#aa00f6c8] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/71" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244104168" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/71">#71</a> (64j)</li>
+<li>[GitHub:#2c71ff6a] - [F] update Readme add php informer (Anton Kolesnikov)</li>
+<li>[GitHub:#900854ba] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/66" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="243992640" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/66">#66</a> format code (64j)</li>
+<li>[GitHub:#ee27d087] - [C] remove unused files DLUsers (dmi3yy)</li>
+<li>[GitHub:#d4c67e6a] - [I] FormLister need PHP &gt;= 5.6 (Anton Kolesnikov)</li>
+<li>[GitHub:#8e4594f8] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/72" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244108608" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/72">#72</a> forma code (64j)</li>
+</ul>";s:7:"summary";s:1800:"<ul>
+<li>[GitHub:#f83719a0] - [F] fix for multiTV&lt;10.0.12 (need branch name Evolution) (dmi3yy)</li>
+<li>[GitHub:#3ac1ef3f] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/73" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244110381" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/73">#73</a> update login form (64j)</li>
+<li>[GitHub:#c469b0ed] - [I] Update README.md add version informer (Dmytro Lukianenko)</li>
+<li>[GitHub:#aa00f6c8] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/71" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244104168" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/71">#71</a> (64j)</li>
+<li>[GitHub:#2c71ff6a] - [F] update Readme add php informer (Anton Kolesnikov)</li>
+<li>[GitHub:#900854ba] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/66" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="243992640" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/66">#66</a> format code (64j)</li>
+<li>[GitHub:#ee27d087] - [C] remove unused files DLUsers (dmi3yy)</li>
+<li>[GitHub:#d4c67e6a] - [I] FormLister need PHP &gt;= 5.6 (Anton Kolesnikov)</li>
+<li>[GitHub:#8e4594f8] - [F] fix issues <a href="https://github.com/evolution-cms/evolution/issues/72" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244108608" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/72">#72</a> forma code (64j)</li>
+</ul>";s:14:"date_timestamp";i:1500536204;}i:6;a:8:{s:5:"title";s:5:"1.3.2";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.2";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Wed, 19 Jul 2017 13:35:47 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.2";s:11:"description";s:850:"<ul>
+<li>[GitHub:#a8fc2fdf] - [F] updater plugin (dmi3yy)</li>
+<li>[GitHub:#ad14254c] - [F] fix <a href="https://github.com/evolution-cms/evolution/issues/75" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244149753" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/75">#75</a> (Pathologic)</li>
+<li>[GitHub:#d29faf9a] - [R] refactor sortableList (64j)</li>
+<li>[GitHub:#ffa63034] - [F] fix <a href="https://github.com/evolution-cms/evolution/issues/68" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244005303" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/68">#68</a>  (for hide widget better use  $widgets['welcome']['hide'] = 1;) (dmi3yy)</li>
+</ul>";s:7:"summary";s:850:"<ul>
+<li>[GitHub:#a8fc2fdf] - [F] updater plugin (dmi3yy)</li>
+<li>[GitHub:#ad14254c] - [F] fix <a href="https://github.com/evolution-cms/evolution/issues/75" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244149753" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/75">#75</a> (Pathologic)</li>
+<li>[GitHub:#d29faf9a] - [R] refactor sortableList (64j)</li>
+<li>[GitHub:#ffa63034] - [F] fix <a href="https://github.com/evolution-cms/evolution/issues/68" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="244005303" data-permission-text="Issue title is private" data-url="https://github.com/evolution-cms/evolution/issues/68">#68</a>  (for hide widget better use  $widgets['welcome']['hide'] = 1;) (dmi3yy)</li>
+</ul>";s:14:"date_timestamp";i:1500496547;}i:7;a:8:{s:5:"title";s:5:"1.3.1";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.1";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Wed, 19 Jul 2017 02:56:41 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.1";s:11:"description";s:103:"<ul>
+<li>[F] DocLister 2.3.5 fix paginate (dmi3yy)</li>
+<li>[F] version in top menu (dmi3yy)</li>
+</ul>";s:7:"summary";s:103:"<ul>
+<li>[F] DocLister 2.3.5 fix paginate (dmi3yy)</li>
+<li>[F] version in top menu (dmi3yy)</li>
+</ul>";s:14:"date_timestamp";i:1500458201;}i:8;a:8:{s:5:"title";s:5:"1.3.0";s:4:"link";s:43:"/evolution-cms/evolution/releases/tag/1.3.0";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Thu, 20 Jul 2017 00:30:56 PDT";s:4:"guid";s:45:"tag:github.com,2008:Repository/12320050/1.3.0";s:11:"description";s:44039:"<h2>EVOLUTION CMS 1.3.0</h2>
+<p>The new release of EVO 1.3.0 runs under the name EVOLUTION CMS. Now updates will be released more often. About once a month there will be a fresh release instead of 1 release at half a year.</p>
+<h3>Just say a few words about future plans:</h3>
+<ul>
+<li>Starting with the current version we will have the correct versioning: <a href="http://semver.org/lang/ru/">http://semver.org/lang/ru/</a> I think this will be much more convenient and correct.</li>
+<li>In the near future, work with the documentation site will be finished: docs.evo.im, and there will be a video of how to help with the documentation so that we can have everything in one place. Also, the documentation will be multilanguage.</li>
+<li>Many additions from the kernel to the repository will be moved.</li>
+<li>On the part of admin: removing mootools, translating them all in html and bootstrap.</li>
+<li>Also in the plans of integrating composer and much more will be added soon to the roadmap.</li>
+</ul>
+<h3>What's new in 1.3.0:</h3>
+<ul>
+<li>New name and logo</li>
+<li>min version php is 5.4</li>
+<li>Correction of errors and stability</li>
+<li>New admin panel theme with a lot of innovations:
+<ul>
+<li>Drag &amp; drop in the document tree</li>
+<li>Dark style, quickly switching the appearance of the admin system</li>
+<li>Easier and faster</li>
+<li>Context menu for elements</li>
+<li>Ajax search in the admin area</li>
+<li>Remembering paths in admin panel</li>
+<li>3 Level menu items with search and the ability to create a new item</li>
+<li>Support for mobile devices, although there is still some work in progress</li>
+</ul>
+</li>
+<li>Widgets for the main page (OnManagerWelcomeHome)</li>
+<li>Change the top menu (OnManagerMenuPrerender)</li>
+<li>Document tree changes (OnManagerNodePrerender)</li>
+</ul>
+<h3>In details the new features:</h3>
+<h4>New logo:</h4>
+<p>Many thanks to the company and SKY INCOM (<a href="https://www.skyname.net">https://www.skyname.net</a>) for the development of the logo:<br>
+<a href="https://user-images.githubusercontent.com/669491/28315633-fe968582-6bc7-11e7-9fba-bd2e104bfa78.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315633-fe968582-6bc7-11e7-9fba-bd2e104bfa78.png" alt="logo" style="max-width:100%;"></a></p>
+<h4>Changelog 1.2.2</h4>
+<pre><code>- delete all theme except the default
+- fix style in the default theme
+- fix showChildren in tree
+- fix #60 Shrinking browser width results in site tree overlay
+- fix #62 Edit date on dashboard recently edit/created panel is wrapped
+- new plugin Updater (For update evo from admin panel)
+- Fixed display of navigation for managers with different rights
+</code></pre>
+<h4>New Manager Theme</h4>
+<p><a href="https://user-images.githubusercontent.com/669491/28315863-009952dc-6bc9-11e7-9010-b183ed66245f.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315863-009952dc-6bc9-11e7-9010-b183ed66245f.png" alt="home1" style="max-width:100%;"></a></p>
+<p>Switch theme with a button above the tree of elements near the basket</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28315864-00a39f9e-6bc9-11e7-8d6a-b4170125fea3.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315864-00a39f9e-6bc9-11e7-8d6a-b4170125fea3.png" alt="home2" style="max-width:100%;"></a></p>
+<p>Significantly speed up the load of the manager for example the main page size is less than 740kb<br>
+And loaded in 0.2 seconds. It used to be: 1 meg and 0.8 seconds, and also removed 1 second of waiting after saving the document!</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316120-27ccbbcc-6bca-11e7-80e0-4473bbfc3ab6.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316120-27ccbbcc-6bca-11e7-80e0-4473bbfc3ab6.png" alt="fast" style="max-width:100%;"></a></p>
+<p>Now it's more convenient to work with elements in templates and chunks, because you can quickly go to the edit or create a new element</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316216-949885a6-6bca-11e7-808a-30b83b411167.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316216-949885a6-6bca-11e7-808a-30b83b411167.png" alt="contextmenu" style="max-width:100%;"></a></p>
+<p>Search in the admin panel now AJAX + is looking not only for documents that makes it easier to develop and navigate, in the top menu all the elements are displayed at once that speeds up the work. In addition to drag &amp; drop in the resource tree now the page does not reload the main page.</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316263-c911766c-6bca-11e7-917d-3e0c532c9afa.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316263-c911766c-6bca-11e7-917d-3e0c532c9afa.png" alt="search" style="max-width:100%;"></a></p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316310-fdd0ce66-6bca-11e7-8311-2b536dc8d31b.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316310-fdd0ce66-6bca-11e7-8311-2b536dc8d31b.png" alt="elements" style="max-width:100%;"></a></p>
+<h4>Widget for Dashboards (OnManagerWelcomeHome):</h4>
+<p>Completely redone the work with widgets, simplified their addition and also left a reserve for the future so that you could build a user-friendly interface for the manager.<br>
+Widget example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$e</span> <span class="pl-k">=</span> <span class="pl-k">&amp;</span><span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span><span class="pl-smi">Event</span>;</span>
+<span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerWelcomeHome<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>if($_SESSION['mgrRole']!=='2') return;</span></span>
+<span class="pl-s1">                </span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['welcome']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['onlineinfo']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['recentinfo']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['news']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['security']['hide']='1';</span></span>
+<span class="pl-s1">                </span>
+<span class="pl-s1">        <span class="pl-smi">$widgets</span>[<span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>menuindex<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>cols<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>col-sm-6<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>fa-rss<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>body<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;div class="card-body"&gt;[+modx_news_content+]&lt;/div&gt;<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>hide<span class="pl-pds">'</span></span><span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span></span>
+<span class="pl-s1">        );</span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$widgets</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<p>Widgets can be added in different plug-ins, there is no need to configure all widgets in one plug-in. Also in the future I think we will create a module or plug-in for easy customization by the user. In previous versions, there was a problem that the admin could not customize the widgets for the manager, since the settings were stored in localstorage. Now with this there are no problems.</p>
+<h4>Change main menu (OnManagerMenuPrerender):</h4>
+<p>The upper menu can be changed, according to the logic with the top menu and did the work of the widgets, below is the code example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerMenuPrerender<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>if($_SESSION['mgrRole']!=='2') return;</span></span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>reports<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>tools<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>users<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>modules<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>elements<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>add_resource<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>add_weblink<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>main<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>Remove locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>javascript:modx.removeLocks();<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>Удалить блокировки<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>this.blur();<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,<span class="pl-c1">0</span>,<span class="pl-c1">20</span>,<span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$menu</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<p>The only thing I notice is that if there are several plug-ins, deleting of element should be done in the last plug-in, you can add anything.</p>
+<h4>Change the documents in the tree as well as the context menu (OnManagerNodePrerender):</h4>
+<p>With this function you can change the behavior and appearance of resources in the tree, change the icon, click on the button to go to the module (For example, you can easily implement the Collections functionality from MODX REVOLUTION), you can also change the context menu that would be more understandable for example on the news section of the standard place Context menu to display: add news, all news.<br>
+Example plugin code:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$e</span> <span class="pl-k">=</span> <span class="pl-k">&amp;</span><span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span><span class="pl-smi">Event</span>;</span>
+<span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerNodePrerender<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-k">if</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>2<span class="pl-pds">'</span></span>){</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Change icons for doc with id 2</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_open<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_close<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">            <span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span>logEvent(<span class="pl-c1">123</span>, <span class="pl-c1">1</span>, <span class="pl-s"><span class="pl-pds">'</span>&lt;pre&gt;- <span class="pl-pds">'</span></span><span class="pl-k">.</span><span class="pl-c1">print_r</span>(<span class="pl-smi">$ph</span>, <span class="pl-c1">true</span>)<span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">'</span> -&lt;/pre&gt;<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>ph info<span class="pl-pds">'</span></span><span class="pl-k">.</span> <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-k">if</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>15<span class="pl-pds">'</span></span>){</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Hide child documents + change the icon + write to the variable variables m ph that would look what you can change</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_open<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list-alt'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_close<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list-ul'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>showChildren<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>tree_page_click<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>index.php?a=3&amp;id=<span class="pl-pds">'</span></span><span class="pl-k">.</span><span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>]<span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">'</span>&amp;tab=1<span class="pl-pds">'</span></span>;</span>
+<span class="pl-s1">			</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Its custom menu for example took a standard that would be understandable what to change</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>header1<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerText<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>nodetitle<span class="pl-pds">'</span></span>],</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item3<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-file-o fa-fw fa-lg"&gt;&lt;/i&gt; Child resource<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Child resource<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item3<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(3);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-pencil-square-o fa-fw fa-lg"&gt;&lt;/i&gt; Edit<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Edit<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item2<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(2);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item5<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrows fa-fw fa-lg"&gt;&lt;/i&gt; Move<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Move<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item5<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(5);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item7<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-clone fa-fw fa-lg"&gt;&lt;/i&gt; Make a copy<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Make a copy<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item7<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(7);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-sort-numeric-asc fa-fw fa-lg"&gt;&lt;/i&gt; Sort by menu item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Sort by menu item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(11);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-up fa-fw fa-lg"&gt;&lt;/i&gt; Publish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Publish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(9);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-down fa-fw fa-lg"&gt;&lt;/i&gt; Unpublish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Unpublish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(10);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">				),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-trash fa-fw fa-lg"&gt;&lt;/i&gt; Uninstall<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Uninstall<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(4);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-circle-o-up fa-fw fa-lg"&gt;&lt;/i&gt; Restore<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Restore<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(8);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item6<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-link fa-fw fa-lg"&gt;&lt;/i&gt; Child Web Reference<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Child Web Reference<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item6<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(6);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator3<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-list fa-fw fa-lg"&gt;&lt;/i&gt; All goods<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>All goods<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(1);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item12<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-eye fa-fw fa-lg"&gt;&lt;/i&gt; Look inside<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Look inside<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item12<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(12);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator4<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item100<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-info fa-fw"&gt;&lt;/i&gt; Example of your item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Title<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>main.location.href='/'<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>image2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;img src="/assets/images/modx-logo.png" width="200" /&gt;<span class="pl-pds">'</span></span></span>
+<span class="pl-s1">                )</span>
+<span class="pl-s1">            );</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span> Don't forget to check if the resource is published. The link publish does not make sense as well as sorting the items if it is not a folder.</span></span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>isfolder<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>deleted<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>deleted<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>published<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>published<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$ph</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<h3>P.S.</h3>
+<ul>
+<li>Also I want to remind that the main repository moved here: <a href="https://github.com/evolution-cms/evolution/">https://github.com/evolution-cms/evolution/</a></li>
+<li>All comments about inaccurate work, errors or suggestions for improvement are written here: <a href="https://github.com/evolution-cms/evolution/issues">https://github.com/evolution-cms/evolution/issues</a></li>
+<li>Download the new version here: <a href="https://github.com/evolution-cms/evolution/releases">https://github.com/evolution-cms/evolution/releases</a></li>
+<li>The new official site will be at <a href="https://evo.im">https://evo.im</a> but it is still under development.</li>
+<li>New documentation will be here <a href="http://docs.evo.im">http://docs.evo.im</a> soon we add all info on Russian and English langs</li>
+<li>Also we have a chat channel in the telegram: <a href="https://t.me/evolutioncms">https://t.me/evolutioncms</a> and the news channel: <a href="https://t.me/evolutioncmsnews">https://t.me/evolutioncmsnews</a></li>
+</ul>";s:7:"summary";s:44039:"<h2>EVOLUTION CMS 1.3.0</h2>
+<p>The new release of EVO 1.3.0 runs under the name EVOLUTION CMS. Now updates will be released more often. About once a month there will be a fresh release instead of 1 release at half a year.</p>
+<h3>Just say a few words about future plans:</h3>
+<ul>
+<li>Starting with the current version we will have the correct versioning: <a href="http://semver.org/lang/ru/">http://semver.org/lang/ru/</a> I think this will be much more convenient and correct.</li>
+<li>In the near future, work with the documentation site will be finished: docs.evo.im, and there will be a video of how to help with the documentation so that we can have everything in one place. Also, the documentation will be multilanguage.</li>
+<li>Many additions from the kernel to the repository will be moved.</li>
+<li>On the part of admin: removing mootools, translating them all in html and bootstrap.</li>
+<li>Also in the plans of integrating composer and much more will be added soon to the roadmap.</li>
+</ul>
+<h3>What's new in 1.3.0:</h3>
+<ul>
+<li>New name and logo</li>
+<li>min version php is 5.4</li>
+<li>Correction of errors and stability</li>
+<li>New admin panel theme with a lot of innovations:
+<ul>
+<li>Drag &amp; drop in the document tree</li>
+<li>Dark style, quickly switching the appearance of the admin system</li>
+<li>Easier and faster</li>
+<li>Context menu for elements</li>
+<li>Ajax search in the admin area</li>
+<li>Remembering paths in admin panel</li>
+<li>3 Level menu items with search and the ability to create a new item</li>
+<li>Support for mobile devices, although there is still some work in progress</li>
+</ul>
+</li>
+<li>Widgets for the main page (OnManagerWelcomeHome)</li>
+<li>Change the top menu (OnManagerMenuPrerender)</li>
+<li>Document tree changes (OnManagerNodePrerender)</li>
+</ul>
+<h3>In details the new features:</h3>
+<h4>New logo:</h4>
+<p>Many thanks to the company and SKY INCOM (<a href="https://www.skyname.net">https://www.skyname.net</a>) for the development of the logo:<br>
+<a href="https://user-images.githubusercontent.com/669491/28315633-fe968582-6bc7-11e7-9fba-bd2e104bfa78.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315633-fe968582-6bc7-11e7-9fba-bd2e104bfa78.png" alt="logo" style="max-width:100%;"></a></p>
+<h4>Changelog 1.2.2</h4>
+<pre><code>- delete all theme except the default
+- fix style in the default theme
+- fix showChildren in tree
+- fix #60 Shrinking browser width results in site tree overlay
+- fix #62 Edit date on dashboard recently edit/created panel is wrapped
+- new plugin Updater (For update evo from admin panel)
+- Fixed display of navigation for managers with different rights
+</code></pre>
+<h4>New Manager Theme</h4>
+<p><a href="https://user-images.githubusercontent.com/669491/28315863-009952dc-6bc9-11e7-9010-b183ed66245f.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315863-009952dc-6bc9-11e7-9010-b183ed66245f.png" alt="home1" style="max-width:100%;"></a></p>
+<p>Switch theme with a button above the tree of elements near the basket</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28315864-00a39f9e-6bc9-11e7-8d6a-b4170125fea3.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28315864-00a39f9e-6bc9-11e7-8d6a-b4170125fea3.png" alt="home2" style="max-width:100%;"></a></p>
+<p>Significantly speed up the load of the manager for example the main page size is less than 740kb<br>
+And loaded in 0.2 seconds. It used to be: 1 meg and 0.8 seconds, and also removed 1 second of waiting after saving the document!</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316120-27ccbbcc-6bca-11e7-80e0-4473bbfc3ab6.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316120-27ccbbcc-6bca-11e7-80e0-4473bbfc3ab6.png" alt="fast" style="max-width:100%;"></a></p>
+<p>Now it's more convenient to work with elements in templates and chunks, because you can quickly go to the edit or create a new element</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316216-949885a6-6bca-11e7-808a-30b83b411167.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316216-949885a6-6bca-11e7-808a-30b83b411167.png" alt="contextmenu" style="max-width:100%;"></a></p>
+<p>Search in the admin panel now AJAX + is looking not only for documents that makes it easier to develop and navigate, in the top menu all the elements are displayed at once that speeds up the work. In addition to drag &amp; drop in the resource tree now the page does not reload the main page.</p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316263-c911766c-6bca-11e7-917d-3e0c532c9afa.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316263-c911766c-6bca-11e7-917d-3e0c532c9afa.png" alt="search" style="max-width:100%;"></a></p>
+<p><a href="https://user-images.githubusercontent.com/669491/28316310-fdd0ce66-6bca-11e7-8311-2b536dc8d31b.png" target="_blank"><img src="https://user-images.githubusercontent.com/669491/28316310-fdd0ce66-6bca-11e7-8311-2b536dc8d31b.png" alt="elements" style="max-width:100%;"></a></p>
+<h4>Widget for Dashboards (OnManagerWelcomeHome):</h4>
+<p>Completely redone the work with widgets, simplified their addition and also left a reserve for the future so that you could build a user-friendly interface for the manager.<br>
+Widget example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$e</span> <span class="pl-k">=</span> <span class="pl-k">&amp;</span><span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span><span class="pl-smi">Event</span>;</span>
+<span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerWelcomeHome<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>if($_SESSION['mgrRole']!=='2') return;</span></span>
+<span class="pl-s1">                </span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['welcome']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['onlineinfo']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['recentinfo']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['news']['hide']='1';</span></span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>$widgets['security']['hide']='1';</span></span>
+<span class="pl-s1">                </span>
+<span class="pl-s1">        <span class="pl-smi">$widgets</span>[<span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>menuindex<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>cols<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>col-sm-6<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>fa-rss<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>test<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>body<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;div class="card-body"&gt;[+modx_news_content+]&lt;/div&gt;<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">            <span class="pl-s"><span class="pl-pds">'</span>hide<span class="pl-pds">'</span></span><span class="pl-k">=&gt;</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span></span>
+<span class="pl-s1">        );</span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$widgets</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<p>Widgets can be added in different plug-ins, there is no need to configure all widgets in one plug-in. Also in the future I think we will create a module or plug-in for easy customization by the user. In previous versions, there was a problem that the admin could not customize the widgets for the manager, since the settings were stored in localstorage. Now with this there are no problems.</p>
+<h4>Change main menu (OnManagerMenuPrerender):</h4>
+<p>The upper menu can be changed, according to the logic with the top menu and did the work of the widgets, below is the code example:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerMenuPrerender<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-c"><span class="pl-c">//</span>if($_SESSION['mgrRole']!=='2') return;</span></span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>reports<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>tools<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>users<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>modules<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>elements<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>add_resource<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        <span class="pl-c1">unset</span>(<span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>add_weblink<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-smi">$menu</span>[<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>main<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>Remove locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>javascript:modx.removeLocks();<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>Удалить блокировки<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>this.blur();<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>remove_locks<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,<span class="pl-c1">0</span>,<span class="pl-c1">20</span>,<span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$menu</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<p>The only thing I notice is that if there are several plug-ins, deleting of element should be done in the last plug-in, you can add anything.</p>
+<h4>Change the documents in the tree as well as the context menu (OnManagerNodePrerender):</h4>
+<p>With this function you can change the behavior and appearance of resources in the tree, change the icon, click on the button to go to the module (For example, you can easily implement the Collections functionality from MODX REVOLUTION), you can also change the context menu that would be more understandable for example on the news section of the standard place Context menu to display: add news, all news.<br>
+Example plugin code:</p>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-smi">$e</span> <span class="pl-k">=</span> <span class="pl-k">&amp;</span><span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span><span class="pl-smi">Event</span>;</span>
+<span class="pl-s1"><span class="pl-k">switch</span>(<span class="pl-smi">$e</span><span class="pl-k">-&gt;</span><span class="pl-smi">name</span>){</span>
+<span class="pl-s1">    <span class="pl-k">case</span> <span class="pl-s"><span class="pl-pds">'</span>OnManagerNodePrerender<span class="pl-pds">'</span></span>:</span>
+<span class="pl-s1">        <span class="pl-k">if</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>2<span class="pl-pds">'</span></span>){</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Change icons for doc with id 2</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_open<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_close<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-address-card-o'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">            <span class="pl-smi">$modx</span><span class="pl-k">-&gt;</span>logEvent(<span class="pl-c1">123</span>, <span class="pl-c1">1</span>, <span class="pl-s"><span class="pl-pds">'</span>&lt;pre&gt;- <span class="pl-pds">'</span></span><span class="pl-k">.</span><span class="pl-c1">print_r</span>(<span class="pl-smi">$ph</span>, <span class="pl-c1">true</span>)<span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">'</span> -&lt;/pre&gt;<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>ph info<span class="pl-pds">'</span></span><span class="pl-k">.</span> <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        <span class="pl-k">if</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>] <span class="pl-k">==</span> <span class="pl-s"><span class="pl-pds">'</span>15<span class="pl-pds">'</span></span>){</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Hide child documents + change the icon + write to the variable variables m ph that would look what you can change</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_open<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list-alt'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>icon_folder_close<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>&lt;i class='fa fa-list-ul'&gt;&lt;/i&gt;<span class="pl-pds">"</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>showChildren<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>;</span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>tree_page_click<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>index.php?a=3&amp;id=<span class="pl-pds">'</span></span><span class="pl-k">.</span><span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span>]<span class="pl-k">.</span><span class="pl-s"><span class="pl-pds">'</span>&amp;tab=1<span class="pl-pds">'</span></span>;</span>
+<span class="pl-s1">			</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span>Its custom menu for example took a standard that would be understandable what to change</span></span>
+<span class="pl-s1">            <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>] <span class="pl-k">=</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>header1<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerText<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>nodetitle<span class="pl-pds">'</span></span>],</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item3<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-file-o fa-fw fa-lg"&gt;&lt;/i&gt; Child resource<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Child resource<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item3<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(3);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-pencil-square-o fa-fw fa-lg"&gt;&lt;/i&gt; Edit<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Edit<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item2<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(2);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item5<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrows fa-fw fa-lg"&gt;&lt;/i&gt; Move<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Move<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item5<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(5);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item7<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-clone fa-fw fa-lg"&gt;&lt;/i&gt; Make a copy<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Make a copy<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item7<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(7);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-sort-numeric-asc fa-fw fa-lg"&gt;&lt;/i&gt; Sort by menu item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Sort by menu item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(11);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-up fa-fw fa-lg"&gt;&lt;/i&gt; Publish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Publish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(9);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-down fa-fw fa-lg"&gt;&lt;/i&gt; Unpublish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Unpublish<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(10);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">				),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-trash fa-fw fa-lg"&gt;&lt;/i&gt; Uninstall<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Uninstall<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(4);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-arrow-circle-o-up fa-fw fa-lg"&gt;&lt;/i&gt; Restore<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Restore<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(8);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item6<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-link fa-fw fa-lg"&gt;&lt;/i&gt; Child Web Reference<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Child Web Reference<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item6<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(6);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator3<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-list fa-fw fa-lg"&gt;&lt;/i&gt; All goods<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>All goods<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(1);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item12<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-eye fa-fw fa-lg"&gt;&lt;/i&gt; Look inside<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Look inside<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item12<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>modx.tree.menuHandler(12);<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>seperator4<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>item100<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;i class="fa fa-info fa-fw"&gt;&lt;/i&gt; Example of your item<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>title<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>Title<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>id<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>item1<span class="pl-pds">'</span></span>,</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>onclick<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>main.location.href='/'<span class="pl-pds">"</span></span>,</span>
+<span class="pl-s1">                ),</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">                <span class="pl-s"><span class="pl-pds">'</span>image2<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-c1">array</span>(</span>
+<span class="pl-s1">                    <span class="pl-s"><span class="pl-pds">'</span>innerHTML<span class="pl-pds">'</span></span> <span class="pl-k">=&gt;</span> <span class="pl-s"><span class="pl-pds">'</span>&lt;img src="/assets/images/modx-logo.png" width="200" /&gt;<span class="pl-pds">'</span></span></span>
+<span class="pl-s1">                )</span>
+<span class="pl-s1">            );</span>
+<span class="pl-s1">            <span class="pl-c"><span class="pl-c">//</span> Don't forget to check if the resource is published. The link publish does not make sense as well as sorting the items if it is not a folder.</span></span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>isfolder<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item11<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>deleted<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item8<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>deleted<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item4<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>published<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>0<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item10<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">            <span class="pl-k">if</span> (<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>published<span class="pl-pds">'</span></span>]<span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">'</span>1<span class="pl-pds">'</span></span>) <span class="pl-c1">unset</span>(<span class="pl-smi">$ph</span>[<span class="pl-s"><span class="pl-pds">'</span>contextmenu<span class="pl-pds">'</span></span>][<span class="pl-s"><span class="pl-pds">'</span>item9<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1"></span>
+<span class="pl-s1">        }</span>
+<span class="pl-s1">        <span class="pl-smi">$e</span><span class="pl-k">-&gt;</span>output(<span class="pl-c1">serialize</span>(<span class="pl-smi">$ph</span>));</span>
+<span class="pl-s1">    <span class="pl-k">break</span>;</span>
+<span class="pl-s1">}</span></pre></div>
+<h3>P.S.</h3>
+<ul>
+<li>Also I want to remind that the main repository moved here: <a href="https://github.com/evolution-cms/evolution/">https://github.com/evolution-cms/evolution/</a></li>
+<li>All comments about inaccurate work, errors or suggestions for improvement are written here: <a href="https://github.com/evolution-cms/evolution/issues">https://github.com/evolution-cms/evolution/issues</a></li>
+<li>Download the new version here: <a href="https://github.com/evolution-cms/evolution/releases">https://github.com/evolution-cms/evolution/releases</a></li>
+<li>The new official site will be at <a href="https://evo.im">https://evo.im</a> but it is still under development.</li>
+<li>New documentation will be here <a href="http://docs.evo.im">http://docs.evo.im</a> soon we add all info on Russian and English langs</li>
+<li>Also we have a chat channel in the telegram: <a href="https://t.me/evolutioncms">https://t.me/evolutioncms</a> and the news channel: <a href="https://t.me/evolutioncmsnews">https://t.me/evolutioncmsnews</a></li>
+</ul>";s:14:"date_timestamp";i:1500535856;}i:9;a:8:{s:5:"title";s:20:"Evolution CMS 1.3.0b";s:4:"link";s:44:"/evolution-cms/evolution/releases/tag/1.3.0b";s:2:"dc";a:1:{s:7:"creator";s:6:"dmi3yy";}s:7:"pubdate";s:29:"Wed, 19 Jul 2017 01:23:31 PDT";s:4:"guid";s:46:"tag:github.com,2008:Repository/12320050/1.3.0b";s:11:"description";s:44:"<p>First release with name Evolution CMS</p>";s:7:"summary";s:44:"<p>First release with name Evolution CMS</p>";s:14:"date_timestamp";i:1500452611;}}s:7:"channel";a:6:{s:5:"title";s:28:"Release notes from evolution";s:4:"link";s:51:"https://github.com/evolution-cms/evolution/releases";s:8:"language";s:5:"en-US";s:13:"lastbuilddate";s:29:"Fri, 17 Nov 2017 05:26:43 PST";s:10:"feedburner";a:2:{s:14:"emailserviceid";s:19:"evocms-release-news";s:18:"feedburnerhostname";s:29:"https://feedburner.google.com";}s:7:"tagline";N;}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"2.0";s:8:"encoding";s:5:"UTF-8";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;s:13:"last_modified";s:31:"Thu, 23 Nov 2017 14:30:57 GMT
+";s:4:"etag";s:29:"AAO3VRZm4pTltv1DFHYxe4z+h/E
+";}
